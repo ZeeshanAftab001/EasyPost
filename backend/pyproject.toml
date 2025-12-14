@@ -1,0 +1,26 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.42.9",
+    "cryptography>=46.0.3",
+    "dateparser>=1.2.2",
+    "dotenv-python>=0.0.1",
+    "fastapi==0.104.1",
+    "langchain-google-genai>=3.2.0",
+    "langgraph>=1.0.4",
+    "langgraph-checkpoint-sqlite>=3.0.1",
+    "openai>=2.11.0",
+    "passlib[bcrypt]==1.7.4",
+    "pip>=25.3",
+    "pyjwt>=2.10.1",
+    "python-dotenv>=1.2.1",
+    "python-jose[cryptography]==3.3.0",
+    "python-multipart==0.0.6",
+    "sqlalchemy==2.0.23",
+    "twilio>=9.8.8",
+    "uvicorn==0.24.0",
+]
